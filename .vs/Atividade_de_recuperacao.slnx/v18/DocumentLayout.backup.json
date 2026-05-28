@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\kaio.mfernandes\\source\\repos\\Atividade_de_recuperacao\\Atividade_de_recuperacao\\Form1.cs",
               "RelativeDocumentMoniker": "Atividade_de_recuperacao\\Form1.cs",
-              "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Atividade_de_recuperacao\\Atividade_de_recuperacao\\Form1.cs [Design]",
-              "RelativeToolTip": "Atividade_de_recuperacao\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Atividade_de_recuperacao\\Atividade_de_recuperacao\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Atividade_de_recuperacao\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T23:14:25.708Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Projeto]"
             }
           ]
         }
