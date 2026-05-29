@@ -85,17 +85,27 @@ namespace Atividade_de_recuperacao
 
         private void btnExercicio6_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Problema: LOOP INFINITO\n\n" +
+                            "O que acontece: Se esquecermos o i++, a condição (i < 5) nunca muda.\n" +
+                            "O computador fica preso rodando o mesmo código para sempre.\n" +
+                            "No Windows Forms, isso faz a tela CONGELAR e parar de responder.");
         }
 
         private void btnExercicio7_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("CONCEITO DE EVENTO\n\n" +
+                            "1. O Evento: É o clique que você acabou de dar neste botão.\n\n" +
+                            "2. O que acontece: O Windows Forms avisou o programa que o botão foi clicado. " +
+                            "O C# veio até o método 'btnExercicio7_Click' e executou este MessageBox!");
         }
 
         private void btnExercicio8_Click(object sender, EventArgs e)
         {
+            string texto = txtNumero6.Text;
 
+            lblResultado.Text = "Resultado na Label: " + texto;
+
+            MessageBox.Show("Resultado na MessageBox: " + texto, "Aviso Interrompido!");
         }
     }
 }
