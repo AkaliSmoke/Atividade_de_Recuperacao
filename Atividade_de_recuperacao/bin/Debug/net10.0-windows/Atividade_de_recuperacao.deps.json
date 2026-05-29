@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Atividade_de_recuperacao/1.0.0": {
+        "runtime": {
+          "Atividade_de_recuperacao.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Atividade_de_recuperacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
