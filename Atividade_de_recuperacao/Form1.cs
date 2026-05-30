@@ -103,7 +103,7 @@ namespace Atividade_de_recuperacao
         {
             string texto = txtNumero6.Text;
 
-            lblResultado.Text = "Resultado na Label: " + texto;
+            lblResultado.Text = "Resultado da Label: " + texto;
 
             MessageBox.Show("Resultado na MessageBox: " + texto, "Aviso Interrompido!");
         }

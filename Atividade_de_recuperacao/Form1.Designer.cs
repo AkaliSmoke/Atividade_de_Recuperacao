@@ -52,13 +52,18 @@
             label9 = new Label();
             txtNumero6 = new TextBox();
             lblResultado = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
             SuspendLayout();
             // 
             // btnExercicio1
             // 
-            btnExercicio1.Location = new Point(3, 30);
+            btnExercicio1.Location = new Point(12, 26);
             btnExercicio1.Name = "btnExercicio1";
-            btnExercicio1.Size = new Size(120, 71);
+            btnExercicio1.Size = new Size(145, 71);
             btnExercicio1.TabIndex = 0;
             btnExercicio1.Text = "Exercício 1";
             btnExercicio1.UseVisualStyleBackColor = true;
@@ -66,9 +71,9 @@
             // 
             // btnExercicio2
             // 
-            btnExercicio2.Location = new Point(131, 31);
+            btnExercicio2.Location = new Point(163, 26);
             btnExercicio2.Name = "btnExercicio2";
-            btnExercicio2.Size = new Size(144, 69);
+            btnExercicio2.Size = new Size(155, 71);
             btnExercicio2.TabIndex = 1;
             btnExercicio2.Text = "Exercício 2";
             btnExercicio2.UseVisualStyleBackColor = true;
@@ -76,9 +81,9 @@
             // 
             // btnExercicio3
             // 
-            btnExercicio3.Location = new Point(281, 30);
+            btnExercicio3.Location = new Point(322, 26);
             btnExercicio3.Name = "btnExercicio3";
-            btnExercicio3.Size = new Size(138, 70);
+            btnExercicio3.Size = new Size(138, 71);
             btnExercicio3.TabIndex = 2;
             btnExercicio3.Text = "Exercicio 3";
             btnExercicio3.UseVisualStyleBackColor = true;
@@ -86,9 +91,9 @@
             // 
             // btnExercicio4
             // 
-            btnExercicio4.Location = new Point(425, 28);
+            btnExercicio4.Location = new Point(466, 27);
             btnExercicio4.Name = "btnExercicio4";
-            btnExercicio4.Size = new Size(127, 71);
+            btnExercicio4.Size = new Size(136, 71);
             btnExercicio4.TabIndex = 3;
             btnExercicio4.Text = "Exercício 4";
             btnExercicio4.UseVisualStyleBackColor = true;
@@ -96,9 +101,9 @@
             // 
             // btnExercicio5
             // 
-            btnExercicio5.Location = new Point(567, 30);
+            btnExercicio5.Location = new Point(608, 28);
             btnExercicio5.Name = "btnExercicio5";
-            btnExercicio5.Size = new Size(133, 69);
+            btnExercicio5.Size = new Size(144, 69);
             btnExercicio5.TabIndex = 4;
             btnExercicio5.Text = "Exercício 5";
             btnExercicio5.UseVisualStyleBackColor = true;
@@ -106,9 +111,9 @@
             // 
             // btnExercicio6
             // 
-            btnExercicio6.Location = new Point(3, 238);
+            btnExercicio6.Location = new Point(12, 238);
             btnExercicio6.Name = "btnExercicio6";
-            btnExercicio6.Size = new Size(117, 70);
+            btnExercicio6.Size = new Size(145, 70);
             btnExercicio6.TabIndex = 5;
             btnExercicio6.Text = "Exercício 6";
             btnExercicio6.UseVisualStyleBackColor = true;
@@ -116,9 +121,9 @@
             // 
             // btnExercicio7
             // 
-            btnExercicio7.Location = new Point(126, 237);
+            btnExercicio7.Location = new Point(163, 236);
             btnExercicio7.Name = "btnExercicio7";
-            btnExercicio7.Size = new Size(149, 71);
+            btnExercicio7.Size = new Size(153, 71);
             btnExercicio7.TabIndex = 6;
             btnExercicio7.Text = "Exercício 7";
             btnExercicio7.UseVisualStyleBackColor = true;
@@ -126,9 +131,9 @@
             // 
             // btnExercicio8
             // 
-            btnExercicio8.Location = new Point(287, 237);
+            btnExercicio8.Location = new Point(322, 237);
             btnExercicio8.Name = "btnExercicio8";
-            btnExercicio8.Size = new Size(132, 69);
+            btnExercicio8.Size = new Size(300, 69);
             btnExercicio8.TabIndex = 7;
             btnExercicio8.Text = "Exercício 8";
             btnExercicio8.UseVisualStyleBackColor = true;
@@ -136,30 +141,30 @@
             // 
             // txtNumero1
             // 
-            txtNumero1.Location = new Point(129, 123);
+            txtNumero1.Location = new Point(163, 122);
             txtNumero1.Name = "txtNumero1";
-            txtNumero1.Size = new Size(146, 23);
+            txtNumero1.Size = new Size(155, 23);
             txtNumero1.TabIndex = 8;
             // 
             // txtNumero2
             // 
-            txtNumero2.Location = new Point(129, 186);
+            txtNumero2.Location = new Point(163, 176);
             txtNumero2.Name = "txtNumero2";
-            txtNumero2.Size = new Size(146, 23);
+            txtNumero2.Size = new Size(153, 23);
             txtNumero2.TabIndex = 9;
             // 
             // txtNumero3
             // 
-            txtNumero3.Location = new Point(281, 123);
+            txtNumero3.Location = new Point(322, 123);
             txtNumero3.Name = "txtNumero3";
-            txtNumero3.Size = new Size(138, 23);
+            txtNumero3.Size = new Size(137, 23);
             txtNumero3.TabIndex = 10;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(131, 104);
+            label1.Location = new Point(163, 104);
             label1.Name = "label1";
             label1.Size = new Size(63, 15);
             label1.TabIndex = 11;
@@ -169,7 +174,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(131, 158);
+            label2.Location = new Point(163, 158);
             label2.Name = "label2";
             label2.Size = new Size(63, 15);
             label2.TabIndex = 12;
@@ -179,7 +184,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(304, 12);
+            label3.Location = new Point(347, 8);
             label3.Name = "label3";
             label3.Size = new Size(78, 15);
             label3.TabIndex = 13;
@@ -187,16 +192,16 @@
             // 
             // txtNumero4
             // 
-            txtNumero4.Location = new Point(424, 123);
+            txtNumero4.Location = new Point(465, 123);
             txtNumero4.Name = "txtNumero4";
-            txtNumero4.Size = new Size(128, 23);
+            txtNumero4.Size = new Size(137, 23);
             txtNumero4.TabIndex = 14;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(434, 12);
+            label4.Location = new Point(479, 8);
             label4.Name = "label4";
             label4.Size = new Size(109, 15);
             label4.TabIndex = 15;
@@ -204,16 +209,16 @@
             // 
             // txtNumero5
             // 
-            txtNumero5.Location = new Point(567, 123);
+            txtNumero5.Location = new Point(608, 123);
             txtNumero5.Name = "txtNumero5";
-            txtNumero5.Size = new Size(133, 23);
+            txtNumero5.Size = new Size(144, 23);
             txtNumero5.TabIndex = 16;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(584, 12);
+            label5.Location = new Point(632, 8);
             label5.Name = "label5";
             label5.Size = new Size(100, 15);
             label5.TabIndex = 17;
@@ -223,7 +228,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(35, 12);
+            label6.Location = new Point(50, 8);
             label6.Name = "label6";
             label6.Size = new Size(70, 15);
             label6.TabIndex = 18;
@@ -233,7 +238,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(148, 12);
+            label7.Location = new Point(178, 8);
             label7.Name = "label7";
             label7.Size = new Size(127, 15);
             label7.TabIndex = 19;
@@ -242,44 +247,98 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(281, 104);
+            label8.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Location = new Point(322, 107);
             label8.Name = "label8";
-            label8.Size = new Size(117, 15);
+            label8.Size = new Size(103, 13);
             label8.TabIndex = 20;
-            label8.Text = "Digita aqui embaixo";
+            label8.Text = "Valor Ímpar ou Par";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(572, 102);
+            label9.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.Location = new Point(608, 107);
             label9.Name = "label9";
-            label9.Size = new Size(121, 15);
+            label9.Size = new Size(118, 13);
             label9.TabIndex = 21;
-            label9.Text = "Digite aqui embaixo:";
+            label9.Text = "Digite Qualquer Valor";
             // 
             // txtNumero6
             // 
-            txtNumero6.Location = new Point(287, 344);
+            txtNumero6.Location = new Point(322, 344);
             txtNumero6.Name = "txtNumero6";
-            txtNumero6.Size = new Size(132, 23);
+            txtNumero6.Size = new Size(300, 23);
             txtNumero6.TabIndex = 22;
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(287, 326);
+            lblResultado.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblResultado.Location = new Point(322, 326);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(62, 15);
+            lblResultado.Size = new Size(33, 15);
             lblResultado.TabIndex = 23;
-            lblResultado.Text = "Resultado:";
+            lblResultado.Text = "label";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.Location = new Point(217, 218);
+            label10.Name = "label10";
+            label10.Size = new Size(46, 15);
+            label10.TabIndex = 24;
+            label10.Text = "Evento";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(465, 107);
+            label11.Name = "label11";
+            label11.Size = new Size(112, 13);
+            label11.TabIndex = 25;
+            label11.Text = "Digita aqui embaixo";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Location = new Point(38, 218);
+            label12.Name = "label12";
+            label12.Size = new Size(98, 13);
+            label12.TabIndex = 26;
+            label12.Text = "O Que Acontece ?";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(364, 213);
+            label13.Name = "label13";
+            label13.Size = new Size(0, 15);
+            label13.TabIndex = 27;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(340, 215);
+            label14.Name = "label14";
+            label14.Size = new Size(266, 15);
+            label14.TabIndex = 28;
+            label14.Text = "Diferença do Resultado Label e Messagem Box";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(712, 379);
+            ClientSize = new Size(764, 379);
+            Controls.Add(label14);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(label11);
+            Controls.Add(label10);
             Controls.Add(lblResultado);
             Controls.Add(txtNumero6);
             Controls.Add(label9);
@@ -336,5 +395,10 @@
         private Label label9;
         private TextBox txtNumero6;
         private Label lblResultado;
+        private Label label10;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
     }
 }

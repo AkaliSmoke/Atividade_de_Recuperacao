@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atividade_de_recuperacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cf71c2e8494acddc1ce6c2e3d1bceb73737a0f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a27a2ab27482876c45b58f686ae6fc95eb98c3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atividade_de_recuperacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atividade_de_recuperacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
